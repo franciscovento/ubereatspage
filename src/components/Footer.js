@@ -1,6 +1,7 @@
 import logo2 from '../assets/images/logo2.svg'
 import playstore from '../assets/images/googleplay.png'
 import appstore from '../assets/images/appstore.svg'
+import { FaFacebookSquare, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -37,8 +38,10 @@ const Footer = () => {
        </div>
        <hr className='text-white mt-12' />
        <div className='flex justify-between mt-5'>
-           <div className='text-white'>
-              FB TW IN
+           <div className='text-white flex gap-3'>
+              <FaFacebookSquare />
+              <FaTwitter />
+              <FaInstagram />
            </div>
            <div>
                <ul className='text-gray hidden md:flex gap-10'>

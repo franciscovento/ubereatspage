@@ -11,6 +11,7 @@ module.exports = {
       orange: "#FA9269",
       blackHover: "#333333",
       grayHover: "#CCCCCC",
+      softGray: '#EEEEEE',
       pink: "#FFD7D2",
       blue: "#0713FF"
     },
