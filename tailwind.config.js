@@ -11,7 +11,8 @@ module.exports = {
       orange: "#FA9269",
       blackHover: "#333333",
       grayHover: "#CCCCCC",
-      pink: "#FFD7D2"
+      pink: "#FFD7D2",
+      blue: "#0713FF"
     },
     fontSize: {
       'xs': '.75rem',
